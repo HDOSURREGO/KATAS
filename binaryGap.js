@@ -1,4 +1,4 @@
-const myNum = 529;
+const myNum = 1041;
 
 myNumBinary = myNum.toString(2);
 console.log(myNumBinary);
