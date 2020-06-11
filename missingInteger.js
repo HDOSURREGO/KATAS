@@ -1,22 +1,27 @@
-let A = [5, 10, 15, 3, 7, 20, 26];
+let A = [1, 3, 6, 4, 1, 2];
 
 // let B = A.sort((a, b) => a - b);
 
-// console.log(B);
+// let size = B.length;
+// let result = [];
+// for (let i = 0; i < size; i++) result.push(+B[i]); // or parseInt(arr[i]) or Number(arr[i])
+// console.log("Result array in numbers: ", result); // 71
+// console.log("Type of result: ", typeof result);
+// console.log("B after parsing to int: ", B);
 
 // let C = B.filter((item) => item > 0);
 
-// let size = C.length;
+// console.log("C: ", C);
+
+// let sizeC = C.length;
+// console.log("size: ", sizeC);
 
 // let found = false;
 
 // // console.log(C);
 // let i = 0;
-// for (i; i < size; i++) {
-// 	//  if (i)
-// 	// console.log("c  " + C[i]);
-// 	// console.log(i);
-
+// for (i; i < sizeC; i++) {
+// 	console.log("C[i]:", C[i]);
 // 	if (C[i] !== i + 1) {
 // 		break;
 // 	}
